@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 4,
+  "revision": 5,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -48,10 +48,12 @@
       "next_task": "spontaneous work on + verb-ing in a spoken reply; real pronunciation/listening not assessed"
     },
     "exam": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "evaluated_attempts": 4,
+      "correct_attempts": 3,
+      "weak_concepts": [
+        "fact_vs_suspected_cause"
+      ],
+      "next_task": "spaced retrieval of might/suspected versus confirmed"
     }
   },
   "review_queue": [
@@ -81,6 +83,15 @@
       "last_rating": "hard",
       "evidence_count": 3,
       "example_redacted": "Incorrect: working on debug; Correct: working on fixing."
+    },
+    {
+      "concept_id": "fact_vs_suspected_cause",
+      "track": "exam",
+      "next_due_on": "2026-10-27",
+      "last_checked_on": "2026-10-25",
+      "last_rating": "hard",
+      "evidence_count": 2,
+      "example_redacted": "might be responsible indicates unconfirmed cause"
     }
   ],
   "recent_sessions": [
@@ -95,11 +106,12 @@
       "unscored_attempts": 1,
       "summary": "Daily English tense drill: initial wrong answer, an unscored vocabulary blocker, missing auxiliary, then correct is writing. Transitioning to technical reading.",
       "technical_summary": "Q5 Chinese translation correct; Q6 third-person grammar errors; Q7 fails correct but returns wrong; Q8 returns correct after feedback; moving to speaking.",
-      "speaking_summary": "Q9, Q10 two written speaking responses with incorrect work on + infinitive; Q10 present perfect correct; Q11 gerund fixing correct. Pronunciation and listening not assessed."
+      "speaking_summary": "Q9, Q10 two written speaking responses with incorrect work on + infinitive; Q10 present perfect correct; Q11 gerund fixing correct. Pronunciation and listening not assessed.",
+      "exam_summary": "Q12 C correct, Q13 B correct, Q14 C wrong, Q15 C correct; review certainty words."
     }
   ],
   "checkpoint": {
-    "id": "day1-speaking-q11-exam-transition",
+    "id": "day1-exam-q15",
     "last_saved_on": "2026-10-25",
     "last_session_id": "2026-10-25-day1"
   }
