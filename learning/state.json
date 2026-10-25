@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 7,
+  "revision": 8,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -13,13 +13,53 @@
     },
     "exam_target": null,
     "explanation_language": "zh-CN",
-    "practice_language": "en"
+    "practice_language": "en",
+    "study_mode": "vocabulary_first",
+    "four_track_split_active": false,
+    "active_daily_schedule_minutes": {
+      "spaced_review": 10,
+      "new_words": 10,
+      "active_use_and_optional_voice": 10
+    },
+    "daily_new_word_target": {
+      "start": 6,
+      "range": [
+        4,
+        8
+      ],
+      "adjust_to_retention": true
+    },
+    "study_days_per_week": 6,
+    "review_day_per_week": 1,
+    "preferred_content_mix": {
+      "general_high_frequency": "primary",
+      "linux_technical": "supporting",
+      "exam": "defer_unless_requested"
+    },
+    "voice_mode": "optional_for_last_5_minutes; not required for vocabulary baseline"
   },
   "assessment": {
     "estimated_cefr": "unassessed",
     "evidence_count": 3,
     "speaking_pronunciation": "not_tested",
-    "listening": "not_tested"
+    "listening": "not_tested",
+    "vocabulary_baseline": {
+      "on": "2026-10-25",
+      "prompt_count": 14,
+      "source": "voice-transcribed interactive translations; some learner corrections",
+      "observed_strengths": [
+        "basic negatives and short needs statements",
+        "some technical terms and high frequency verbs",
+        "corrected want to improve"
+      ],
+      "observed_gaps": [
+        "retrieval of agree, task, ran into",
+        "need to and wait for collocations",
+        "habitual simple present versus progressive",
+        "noun phrase and word order"
+      ],
+      "result": "provisional qualitative evidence; no reliable vocabulary-size or CEFR score"
+    }
   },
   "tracks": {
     "daily": {
@@ -29,7 +69,7 @@
         "present_simple_vs_present_progressive",
         "present_progressive_be_auxiliary"
       ],
-      "next_task": "Review present progressive versus simple present"
+      "next_task": "Vocab foundation W1: unprompted high frequency active recall and short sentences"
     },
     "technical": {
       "evaluated_attempts": 4,
@@ -37,7 +77,7 @@
       "weak_concepts": [
         "third_person_singular"
       ],
-      "next_task": "Spaced review of third-person singular and short driver bug report"
+      "next_task": "Support with a small number of real Linux driver examples without separate daily track"
     },
     "speaking_listening": {
       "evaluated_attempts": 5,
@@ -47,7 +87,7 @@
         "existential_there_is",
         "translation_fidelity"
       ],
-      "next_task": "Review existential there is without have; keep source content accurate; practice spoken replies with audio when available"
+      "next_task": "Optional 5-minute speaking using learned words; pronunciation not formally assessed"
     },
     "exam": {
       "evaluated_attempts": 4,
@@ -55,7 +95,7 @@
       "weak_concepts": [
         "fact_vs_suspected_cause"
       ],
-      "next_task": "Spaced review of fact versus suspected cause"
+      "next_task": "Defer exam drills during initial vocabulary phase; revisit at week 4 review"
     }
   },
   "review_queue": [
@@ -134,11 +174,102 @@
           "capitalization"
         ]
       }
+    },
+    {
+      "session_id": "2026-10-25-vocab-baseline",
+      "date": "2026-10-25",
+      "status": "completed",
+      "type": "vocabulary_baseline",
+      "prompt_count": 14,
+      "summary": "Voice-transcribed active translation baseline: simple negative and need-help sentences correct; several recalled words but recurring gaps in agree/task/run into, collocations and active construction. Scores not assigned because of transcription corrections.",
+      "checkpoint_id": "2026-10-25-vocab-first-plan-v1"
     }
   ],
   "checkpoint": {
-    "id": "day1-final-q17",
+    "id": "2026-10-25-vocab-first-plan-v1",
     "last_saved_on": "2026-10-25",
-    "last_session_id": "2026-10-25-day1"
+    "last_session_id": "2026-10-25-vocab-baseline"
+  },
+  "study_plan": {
+    "id": "vocabulary-foundation-2026-10-26",
+    "status": "planned",
+    "created_on": "2026-10-25",
+    "start_on": "2026-10-26",
+    "end_on": "2026-11-22",
+    "duration_weeks": 4,
+    "rationale": "Based on 14 spoken vocabulary prompts, active word retrieval and common collocations need strengthening; transcript recognition was occasionally corrected by learner. Not a standardized level test.",
+    "focus": "high-frequency words -> collocation -> reusable sentence pattern -> retrieval",
+    "weeks": [
+      {
+        "number": 1,
+        "focus": "core daily verbs and nouns",
+        "topics": [
+          "need to",
+          "want to",
+          "agree with",
+          "task",
+          "wait for",
+          "after work",
+          "there is"
+        ],
+        "goal": "retrieve target words without hints and build short correct sentences"
+      },
+      {
+        "number": 2,
+        "focus": "common verb collocations",
+        "topics": [
+          "look for",
+          "work on + verb-ing",
+          "run into a problem",
+          "cause of a problem",
+          "reply from a colleague"
+        ],
+        "goal": "use one key collocation for each newly learned word"
+      },
+      {
+        "number": 3,
+        "focus": "reusable everyday and engineering reporting patterns",
+        "topics": [
+          "I usually + verb",
+          "I'm + verb-ing",
+          "I've + past participle",
+          "I suspect there is",
+          "yesterday + past tense"
+        ],
+        "goal": "describe real actions with correct tense and word order"
+      },
+      {
+        "number": 4,
+        "focus": "independent active recall and application",
+        "topics": [
+          "mixed no-hint retrieval",
+          "short work updates",
+          "Linux bug descriptions",
+          "repeat baseline-style items"
+        ],
+        "goal": "compare observed performance with baseline and choose next stage"
+      }
+    ],
+    "daily_minutes": {
+      "review": 10,
+      "new_vocabulary": 10,
+      "active_production": 10
+    },
+    "daily_new_word_target": 6,
+    "pacing": "six training days plus one review-only day per week; decrease new words if next-day recall is weak",
+    "review_intervals_days": [
+      1,
+      3,
+      7,
+      14
+    ],
+    "session_rules": [
+      "one core question per turn",
+      "do not reveal key English words before production attempt",
+      "keep corrections to 1-2 important problems",
+      "distinguish speech recognition ambiguity from learner mistakes"
+    ],
+    "voice": "optional; use spoken response in last 5 minutes when convenient, text accepted for accurate spelling and grammar",
+    "completion_check": "next-day unprompted recall, correct collocation and two independent sentences; not a promise of CEFR improvement"
   }
 }
