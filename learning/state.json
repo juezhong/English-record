@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 2,
+  "revision": 3,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -32,12 +32,12 @@
       "next_task": "spaced review of present progressive; continue technical reading"
     },
     "technical": {
-      "evaluated_attempts": 3,
-      "correct_attempts": 1,
+      "evaluated_attempts": 4,
+      "correct_attempts": 2,
       "weak_concepts": [
         "third_person_singular"
       ],
-      "next_task": "third-person singular retry, then speaking"
+      "next_task": "spaced review third-person singular, speaking self-introduction"
     },
     "speaking_listening": {
       "evaluated_attempts": 0,
@@ -65,10 +65,10 @@
     {
       "concept_id": "third_person_singular",
       "track": "technical",
-      "next_due_on": "2026-10-26",
+      "next_due_on": "2026-10-27",
       "last_checked_on": "2026-10-25",
-      "last_rating": "again",
-      "evidence_count": 2,
+      "last_rating": "hard",
+      "evidence_count": 3,
       "example_redacted": "probe function returns an error code"
     }
   ],
@@ -83,11 +83,11 @@
       "correct_attempts": 1,
       "unscored_attempts": 1,
       "summary": "Daily English tense drill: initial wrong answer, an unscored vocabulary blocker, missing auxiliary, then correct is writing. Transitioning to technical reading.",
-      "technical_summary": "Q5 translated both sentences correctly; Q6 had two third-person agreement errors; Q7 fixed fails but omitted s in returns."
+      "technical_summary": "Q5 Chinese translation correct; Q6 third-person grammar errors; Q7 fails correct but returns wrong; Q8 returns correct after feedback; moving to speaking."
     }
   ],
   "checkpoint": {
-    "id": "day1-technical-q7",
+    "id": "day1-technical-q8-speaking-transition",
     "last_saved_on": "2026-10-25",
     "last_session_id": "2026-10-25-day1"
   }
