@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 5,
+  "revision": 6,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -40,12 +40,13 @@
       "next_task": "spaced review third-person singular, speaking self-introduction"
     },
     "speaking_listening": {
-      "evaluated_attempts": 3,
+      "evaluated_attempts": 4,
       "correct_attempts": 1,
       "weak_concepts": [
-        "work_on_gerund"
+        "work_on_gerund",
+        "existential_there_is"
       ],
-      "next_task": "spontaneous work on + verb-ing in a spoken reply; real pronunciation/listening not assessed"
+      "next_task": "retry there is in spoken technical report"
     },
     "exam": {
       "evaluated_attempts": 4,
@@ -92,6 +93,15 @@
       "last_rating": "hard",
       "evidence_count": 2,
       "example_redacted": "might be responsible indicates unconfirmed cause"
+    },
+    {
+      "concept_id": "existential_there_is",
+      "track": "speaking_listening",
+      "next_due_on": "2026-10-26",
+      "last_checked_on": "2026-10-25",
+      "last_rating": "again",
+      "evidence_count": 1,
+      "example_redacted": "I suspect there is still a race condition."
     }
   ],
   "recent_sessions": [
@@ -107,11 +117,12 @@
       "summary": "Daily English tense drill: initial wrong answer, an unscored vocabulary blocker, missing auxiliary, then correct is writing. Transitioning to technical reading.",
       "technical_summary": "Q5 Chinese translation correct; Q6 third-person grammar errors; Q7 fails correct but returns wrong; Q8 returns correct after feedback; moving to speaking.",
       "speaking_summary": "Q9, Q10 two written speaking responses with incorrect work on + infinitive; Q10 present perfect correct; Q11 gerund fixing correct. Pronunciation and listening not assessed.",
-      "exam_summary": "Q12 C correct, Q13 B correct, Q14 C wrong, Q15 C correct; review certainty words."
+      "exam_summary": "Q12 C correct, Q13 B correct, Q14 C wrong, Q15 C correct; review certainty words.",
+      "q16_summary": "Used present progressive and present perfect correctly; omitted there is after suspect; capitalization errors."
     }
   ],
   "checkpoint": {
-    "id": "day1-exam-q15",
+    "id": "day1-q16",
     "last_saved_on": "2026-10-25",
     "last_session_id": "2026-10-25-day1"
   }
