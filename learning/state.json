@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 6,
+  "revision": 7,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -29,7 +29,7 @@
         "present_simple_vs_present_progressive",
         "present_progressive_be_auxiliary"
       ],
-      "next_task": "spaced review of present progressive; continue technical reading"
+      "next_task": "Review present progressive versus simple present"
     },
     "technical": {
       "evaluated_attempts": 4,
@@ -37,16 +37,17 @@
       "weak_concepts": [
         "third_person_singular"
       ],
-      "next_task": "spaced review third-person singular, speaking self-introduction"
+      "next_task": "Spaced review of third-person singular and short driver bug report"
     },
     "speaking_listening": {
-      "evaluated_attempts": 4,
+      "evaluated_attempts": 5,
       "correct_attempts": 1,
       "weak_concepts": [
         "work_on_gerund",
-        "existential_there_is"
+        "existential_there_is",
+        "translation_fidelity"
       ],
-      "next_task": "retry there is in spoken technical report"
+      "next_task": "Review existential there is without have; keep source content accurate; practice spoken replies with audio when available"
     },
     "exam": {
       "evaluated_attempts": 4,
@@ -54,7 +55,7 @@
       "weak_concepts": [
         "fact_vs_suspected_cause"
       ],
-      "next_task": "spaced retrieval of might/suspected versus confirmed"
+      "next_task": "Spaced review of fact versus suspected cause"
     }
   },
   "review_queue": [
@@ -100,16 +101,16 @@
       "next_due_on": "2026-10-26",
       "last_checked_on": "2026-10-25",
       "last_rating": "again",
-      "evidence_count": 1,
-      "example_redacted": "I suspect there is still a race condition."
+      "evidence_count": 2,
+      "example_redacted": "Incorrect: there is still have a race condition. Correct: there is still a race condition."
     }
   ],
   "recent_sessions": [
     {
       "session_id": "2026-10-25-day1",
       "date": "2026-10-25",
-      "status": "in_progress",
-      "checkpoint_id": "2026-10-25-day1-grammar-cp1",
+      "status": "completed",
+      "checkpoint_id": "day1-final-q17",
       "track": "daily",
       "evaluated_attempts": 3,
       "correct_attempts": 1,
@@ -118,11 +119,25 @@
       "technical_summary": "Q5 Chinese translation correct; Q6 third-person grammar errors; Q7 fails correct but returns wrong; Q8 returns correct after feedback; moving to speaking.",
       "speaking_summary": "Q9, Q10 two written speaking responses with incorrect work on + infinitive; Q10 present perfect correct; Q11 gerund fixing correct. Pronunciation and listening not assessed.",
       "exam_summary": "Q12 C correct, Q13 B correct, Q14 C wrong, Q15 C correct; review certainty words.",
-      "q16_summary": "Used present progressive and present perfect correctly; omitted there is after suspect; capitalization errors."
+      "q16_summary": "Used present progressive and present perfect correctly; omitted there is after suspect; capitalization errors.",
+      "final_summary": "Completed 17 exercises across four tracks; Q2 unscored vocabulary gap. Q17 used present progressive and perfect correctly but existential there is still have incorrect and translation diverged from target memory leak. No verified audio/listening score or elapsed study time.",
+      "q17": {
+        "evaluated": true,
+        "correct": false,
+        "improved": [
+          "present_progressive",
+          "present_perfect"
+        ],
+        "needs_review": [
+          "existential_there_is",
+          "translation_fidelity",
+          "capitalization"
+        ]
+      }
     }
   ],
   "checkpoint": {
-    "id": "day1-q16",
+    "id": "day1-final-q17",
     "last_saved_on": "2026-10-25",
     "last_session_id": "2026-10-25-day1"
   }
