@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 0,
+  "revision": 1,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -17,16 +17,19 @@
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 0,
+    "evidence_count": 3,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
   "tracks": {
     "daily": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "evaluated_attempts": 3,
+      "correct_attempts": 1,
+      "weak_concepts": [
+        "present_simple_vs_present_progressive",
+        "present_progressive_be_auxiliary"
+      ],
+      "next_task": "spaced review of present progressive; continue technical reading"
     },
     "technical": {
       "evaluated_attempts": 0,
@@ -47,11 +50,33 @@
       "next_task": "baseline"
     }
   },
-  "review_queue": [],
-  "recent_sessions": [],
+  "review_queue": [
+    {
+      "concept_id": "present_progressive_be_auxiliary",
+      "track": "daily",
+      "next_due_on": "2026-10-27",
+      "last_checked_on": "2026-10-25",
+      "last_rating": "hard",
+      "evidence_count": 2,
+      "example_redacted": "He ... right now he [is fixing] a driver bug; later correct: [is writing]."
+    }
+  ],
+  "recent_sessions": [
+    {
+      "session_id": "2026-10-25-day1",
+      "date": "2026-10-25",
+      "status": "in_progress",
+      "checkpoint_id": "2026-10-25-day1-grammar-cp1",
+      "track": "daily",
+      "evaluated_attempts": 3,
+      "correct_attempts": 1,
+      "unscored_attempts": 1,
+      "summary": "Daily English tense drill: initial wrong answer, an unscored vocabulary blocker, missing auxiliary, then correct is writing. Transitioning to technical reading."
+    }
+  ],
   "checkpoint": {
-    "id": null,
-    "last_saved_on": null,
-    "last_session_id": null
+    "id": "2026-10-25-day1-grammar-cp1",
+    "last_saved_on": "2026-10-25",
+    "last_session_id": "2026-10-25-day1"
   }
 }
