@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "repository": "juezhong/English-record",
+  "revision": 0,
+  "preferences": {
+    "locale": "zh-CN",
+    "daily_minutes": 30,
+    "track_minutes": {
+      "daily": 8,
+      "technical": 8,
+      "speaking_listening": 7,
+      "exam": 7
+    },
+    "exam_target": null,
+    "explanation_language": "zh-CN",
+    "practice_language": "en"
+  },
+  "assessment": {
+    "estimated_cefr": "unassessed",
+    "evidence_count": 0,
+    "speaking_pronunciation": "not_tested",
+    "listening": "not_tested"
+  },
+  "tracks": {
+    "daily": {
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
+    },
+    "technical": {
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
+    },
+    "speaking_listening": {
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
+    },
+    "exam": {
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
+    }
+  },
+  "review_queue": [],
+  "recent_sessions": [],
+  "checkpoint": {
+    "id": null,
+    "last_saved_on": null,
+    "last_session_id": null
+  }
+}
