@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 3,
+  "revision": 4,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -21,7 +21,7 @@
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 5,
+    "evidence_count": 6,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
@@ -48,12 +48,13 @@
       "next_task": "baseline"
     },
     "foundation_exam": {
-      "evaluated_attempts": 2,
-      "correct_attempts": 1,
+      "evaluated_attempts": 3,
+      "correct_attempts": 2,
       "weak_concepts": [
-        "simple_future_will_and_time_adverb_order"
+        "simple_future_will_and_time_adverb_order",
+        "capitalization_I_English"
       ],
-      "next_task": "Recheck will + base verb and time placement in a fresh sentence; reinforce I/English capitalization"
+      "next_task": "Introduce simple present for habits (I study English every day), then check independently; revisit simple future later"
     }
   },
   "review_queue": [],
@@ -63,14 +64,14 @@
       "date": "2026-11-01",
       "status": "in_progress",
       "type": "baseline",
-      "checkpoint_id": "day1-simple-future-first-correct-q4",
-      "evaluated_attempts": 5,
-      "correct_attempts": 3,
-      "summary": "Reading 'might' understood; guided communication rephrase correct; 'my friend tomorrow will arrive' had wrong word order. Follow-up 'i will study english tomorrow' has correct basic future structure and word order, with capitalization errors for I/English. Need confirm retention in new context; no voice evidence."
+      "checkpoint_id": "day1-simple-future-second-correct-q5",
+      "evaluated_attempts": 6,
+      "correct_attempts": 4,
+      "summary": "Understood 'might'; wrote correct guided customer-support reply. Struggled initially with future word order ('my friend tomorrow will arrive'), then independently produced 'i will study english tomorrow' and 'i will call my friend tomorrow' with correct tense/word order; minor capitalization errors (I, English). Next: beginner habit/simple-present with one new concept at a time. No audio assessed."
     }
   ],
   "checkpoint": {
-    "id": "day1-simple-future-first-correct-q4",
+    "id": "day1-simple-future-second-correct-q5",
     "last_saved_on": "2026-11-01",
     "last_session_id": "2026-11-01-day1"
   }
