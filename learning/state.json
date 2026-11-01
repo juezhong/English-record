@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 0,
+  "revision": 1,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -14,26 +14,32 @@
     "primary_goal": "read_documents_and_communicate_online",
     "exam_target": null,
     "explanation_language": "zh-CN",
-    "practice_language": "en"
+    "practice_language": "en",
+    "teaching_level": "beginner_friendly_from_basics",
+    "teaching_method": "use simple everyday sentences first; explain grammar without assuming terminology; one concept per turn; verify understanding before harder structures",
+    "voice_mode": "announce_before_voice_switch; start_with_text"
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 0,
+    "evidence_count": 3,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
+      "evaluated_attempts": 1,
+      "correct_attempts": 1,
       "weak_concepts": [],
-      "next_task": "baseline"
+      "next_task": "short simple texts with one question"
     },
     "communication": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "evaluated_attempts": 2,
+      "correct_attempts": 1,
+      "weak_concepts": [
+        "direct_vs_indirect_question_order",
+        "arrive_verb_usage"
+      ],
+      "next_task": "short direct questions; skip indirect questions for now"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -49,10 +55,21 @@
     }
   },
   "review_queue": [],
-  "recent_sessions": [],
+  "recent_sessions": [
+    {
+      "session_id": "2026-11-01-day1",
+      "date": "2026-11-01",
+      "status": "in_progress",
+      "type": "baseline",
+      "checkpoint_id": "day1-q2-guided-retry",
+      "evaluated_attempts": 3,
+      "correct_attempts": 2,
+      "summary": "Reading uncertainty cue 'might' understood. Communication request first draft conveyed meaning but used incorrect verb and question order; guided rewrite correct. Learner requests beginner-friendly, jargon-free explanations; guided revision is not proof of independent mastery. No audio assessed."
+    }
+  ],
   "checkpoint": {
-    "id": null,
-    "last_saved_on": null,
-    "last_session_id": null
+    "id": "day1-q2-guided-retry",
+    "last_saved_on": "2026-11-01",
+    "last_session_id": "2026-11-01-day1"
   }
 }
