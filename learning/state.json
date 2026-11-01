@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 2,
+  "revision": 3,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -21,7 +21,7 @@
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 4,
+    "evidence_count": 5,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
@@ -48,12 +48,12 @@
       "next_task": "baseline"
     },
     "foundation_exam": {
-      "evaluated_attempts": 1,
-      "correct_attempts": 0,
+      "evaluated_attempts": 2,
+      "correct_attempts": 1,
       "weak_concepts": [
         "simple_future_will_and_time_adverb_order"
       ],
-      "next_task": "Practice 'person + will + verb + tomorrow' with simple vocabulary"
+      "next_task": "Recheck will + base verb and time placement in a fresh sentence; reinforce I/English capitalization"
     }
   },
   "review_queue": [],
@@ -63,14 +63,14 @@
       "date": "2026-11-01",
       "status": "in_progress",
       "type": "baseline",
-      "checkpoint_id": "day1-simple-future-order-q3",
-      "evaluated_attempts": 4,
-      "correct_attempts": 2,
-      "summary": "Reading 'might' understood. Guided communication rephrase correct. Simple future translation 'my friend tomorrow will arrive' conveyed meaning but had unusual word order. Taught person + will + verb + tomorrow. Learner requests beginner-friendly, jargon-free explanations. No audio assessed."
+      "checkpoint_id": "day1-simple-future-first-correct-q4",
+      "evaluated_attempts": 5,
+      "correct_attempts": 3,
+      "summary": "Reading 'might' understood; guided communication rephrase correct; 'my friend tomorrow will arrive' had wrong word order. Follow-up 'i will study english tomorrow' has correct basic future structure and word order, with capitalization errors for I/English. Need confirm retention in new context; no voice evidence."
     }
   ],
   "checkpoint": {
-    "id": "day1-simple-future-order-q3",
+    "id": "day1-simple-future-first-correct-q4",
     "last_saved_on": "2026-11-01",
     "last_session_id": "2026-11-01-day1"
   }
