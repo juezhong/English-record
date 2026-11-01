@@ -1,22 +1,37 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 1,
+  "revision": 2,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
     "track_minutes": {
-      "reading": 12,
-      "communication": 10,
-      "listening_speaking": 5,
-      "foundation_exam": 3
+      "vocabulary": 8,
+      "reading": 10,
+      "communication": 6,
+      "listening_speaking": 4,
+      "foundation_exam": 2
     },
     "primary_goal": "read_documents_and_communicate_online",
     "exam_target": null,
     "explanation_language": "zh-CN",
     "practice_language": "en",
     "learning_mode": "text_voice_mixed",
-    "voice_mode": "announce_before_voice_switch; start_with_text"
+    "voice_mode": "announce_before_voice_switch; start_with_text",
+    "teaching_level": "vocabulary_first_beginner_friendly",
+    "teaching_method": {
+      "vocabulary_minutes": 8,
+      "reading_minutes": 10,
+      "communication_minutes": 6,
+      "listening_speaking_minutes": 4,
+      "foundation_exam_minutes": 2,
+      "new_words_per_day": "3-5",
+      "max_new_words_per_passage": "2-3",
+      "reading_sentences": "1-2",
+      "method": "Teach essential vocabulary before a short passage, then ask one comprehension question; reduce Chinese support gradually as demonstrated comprehension improves.",
+      "explanation_language": "zh-CN",
+      "exercise_language": "en"
+    }
   },
   "assessment": {
     "estimated_cefr": "A1-A2_provisional_text_only",
@@ -97,7 +112,7 @@
     }
   ],
   "checkpoint": {
-    "id": "baseline-complete-2026-11-01-fresh-01",
+    "id": "vocabulary-first-plan-pause-2026-11-01",
     "last_saved_on": "2026-11-01",
     "last_session_id": "2026-11-01-fresh-diagnostic-01"
   },
@@ -106,7 +121,8 @@
     "phase": "lesson",
     "step_id": "lesson-1-reading",
     "pending_task_status": "unanswered",
-    "next_task_kind": "short_reading_comprehension",
-    "updated_on": "2026-11-01"
+    "next_task_kind": "resume_short_reading_with_vocabulary_support",
+    "updated_on": "2026-11-01",
+    "paused": true
   }
 }
