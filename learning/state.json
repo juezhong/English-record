@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 1,
+  "revision": 2,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -21,7 +21,7 @@
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 3,
+    "evidence_count": 4,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
@@ -48,10 +48,12 @@
       "next_task": "baseline"
     },
     "foundation_exam": {
-      "evaluated_attempts": 0,
+      "evaluated_attempts": 1,
       "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "weak_concepts": [
+        "simple_future_will_and_time_adverb_order"
+      ],
+      "next_task": "Practice 'person + will + verb + tomorrow' with simple vocabulary"
     }
   },
   "review_queue": [],
@@ -61,14 +63,14 @@
       "date": "2026-11-01",
       "status": "in_progress",
       "type": "baseline",
-      "checkpoint_id": "day1-q2-guided-retry",
-      "evaluated_attempts": 3,
+      "checkpoint_id": "day1-simple-future-order-q3",
+      "evaluated_attempts": 4,
       "correct_attempts": 2,
-      "summary": "Reading uncertainty cue 'might' understood. Communication request first draft conveyed meaning but used incorrect verb and question order; guided rewrite correct. Learner requests beginner-friendly, jargon-free explanations; guided revision is not proof of independent mastery. No audio assessed."
+      "summary": "Reading 'might' understood. Guided communication rephrase correct. Simple future translation 'my friend tomorrow will arrive' conveyed meaning but had unusual word order. Taught person + will + verb + tomorrow. Learner requests beginner-friendly, jargon-free explanations. No audio assessed."
     }
   ],
   "checkpoint": {
-    "id": "day1-q2-guided-retry",
+    "id": "day1-simple-future-order-q3",
     "last_saved_on": "2026-11-01",
     "last_session_id": "2026-11-01-day1"
   }
