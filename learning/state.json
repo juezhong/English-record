@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 4,
+  "revision": 0,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -14,32 +14,26 @@
     "primary_goal": "read_documents_and_communicate_online",
     "exam_target": null,
     "explanation_language": "zh-CN",
-    "practice_language": "en",
-    "teaching_level": "beginner_friendly_from_basics",
-    "teaching_method": "use simple everyday sentences first; explain grammar without assuming terminology; one concept per turn; verify understanding before harder structures",
-    "voice_mode": "announce_before_voice_switch; start_with_text"
+    "practice_language": "en"
   },
   "assessment": {
     "estimated_cefr": "unassessed",
-    "evidence_count": 6,
+    "evidence_count": 0,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 1,
-      "correct_attempts": 1,
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
       "weak_concepts": [],
-      "next_task": "short simple texts with one question"
+      "next_task": "baseline"
     },
     "communication": {
-      "evaluated_attempts": 2,
-      "correct_attempts": 1,
-      "weak_concepts": [
-        "direct_vs_indirect_question_order",
-        "arrive_verb_usage"
-      ],
-      "next_task": "short direct questions; skip indirect questions for now"
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -48,31 +42,17 @@
       "next_task": "baseline"
     },
     "foundation_exam": {
-      "evaluated_attempts": 3,
-      "correct_attempts": 2,
-      "weak_concepts": [
-        "simple_future_will_and_time_adverb_order",
-        "capitalization_I_English"
-      ],
-      "next_task": "Introduce simple present for habits (I study English every day), then check independently; revisit simple future later"
+      "evaluated_attempts": 0,
+      "correct_attempts": 0,
+      "weak_concepts": [],
+      "next_task": "baseline"
     }
   },
   "review_queue": [],
-  "recent_sessions": [
-    {
-      "session_id": "2026-11-01-day1",
-      "date": "2026-11-01",
-      "status": "in_progress",
-      "type": "baseline",
-      "checkpoint_id": "day1-simple-future-second-correct-q5",
-      "evaluated_attempts": 6,
-      "correct_attempts": 4,
-      "summary": "Understood 'might'; wrote correct guided customer-support reply. Struggled initially with future word order ('my friend tomorrow will arrive'), then independently produced 'i will study english tomorrow' and 'i will call my friend tomorrow' with correct tense/word order; minor capitalization errors (I, English). Next: beginner habit/simple-present with one new concept at a time. No audio assessed."
-    }
-  ],
+  "recent_sessions": [],
   "checkpoint": {
-    "id": "day1-simple-future-second-correct-q5",
-    "last_saved_on": "2026-11-01",
-    "last_session_id": "2026-11-01-day1"
+    "id": null,
+    "last_saved_on": null,
+    "last_session_id": null
   }
 }
