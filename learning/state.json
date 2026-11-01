@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 0,
+  "revision": 1,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -14,45 +14,99 @@
     "primary_goal": "read_documents_and_communicate_online",
     "exam_target": null,
     "explanation_language": "zh-CN",
-    "practice_language": "en"
+    "practice_language": "en",
+    "learning_mode": "text_voice_mixed",
+    "voice_mode": "announce_before_voice_switch; start_with_text"
   },
   "assessment": {
-    "estimated_cefr": "unassessed",
-    "evidence_count": 0,
+    "estimated_cefr": "A1-A2_provisional_text_only",
+    "evidence_count": 4,
     "speaking_pronunciation": "not_tested",
     "listening": "not_tested"
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "evaluated_attempts": 1,
+      "correct_attempts": 1,
+      "weak_concepts": [
+        "understanding_what_should_someone_do_question"
+      ],
+      "next_task": "short_everyday_instructions_identify_request_and_condition"
     },
     "communication": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
-      "weak_concepts": [],
-      "next_task": "baseline"
+      "evaluated_attempts": 2,
+      "correct_attempts": 1,
+      "weak_concepts": [
+        "wont_turn_on_verb_phrase",
+        "singular_count_nouns_article_or_plural"
+      ],
+      "next_task": "describe_problem_and_ask_for_help_in_short_sentences"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
       "correct_attempts": 0,
       "weak_concepts": [],
-      "next_task": "baseline"
+      "next_task": "voice_baseline_when_voice_mode_active"
     },
     "foundation_exam": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
+      "evaluated_attempts": 1,
+      "correct_attempts": 1,
       "weak_concepts": [],
-      "next_task": "baseline"
+      "next_task": "review_simple_present_and_countable_nouns_in_context"
     }
   },
-  "review_queue": [],
-  "recent_sessions": [],
+  "review_queue": [
+    {
+      "concept_id": "english_what_should_x_do_question",
+      "track": "reading",
+      "next_due_on": "2026-11-02",
+      "last_checked_on": "2026-11-01",
+      "last_rating": "hard",
+      "evidence_count": 1,
+      "example_redacted": "What should a customer do if the problem continues?"
+    },
+    {
+      "concept_id": "wont_turn_on_verb_phrase",
+      "track": "communication",
+      "next_due_on": "2026-11-02",
+      "last_checked_on": "2026-11-01",
+      "last_rating": "again",
+      "evidence_count": 1,
+      "example_redacted": "My computer won't turn on."
+    },
+    {
+      "concept_id": "countable_book_article_or_plural",
+      "track": "communication",
+      "next_due_on": "2026-11-02",
+      "last_checked_on": "2026-11-01",
+      "last_rating": "hard",
+      "evidence_count": 1,
+      "example_redacted": "I usually read books on weekends."
+    }
+  ],
+  "recent_sessions": [
+    {
+      "session_id": "2026-11-01-fresh-diagnostic-01",
+      "date": "2026-11-01",
+      "status": "completed",
+      "type": "baseline",
+      "checkpoint_id": "baseline-complete-2026-11-01-fresh-01",
+      "evaluated_attempts": 4,
+      "correct_attempts": 3,
+      "summary": "Text-only four-task diagnostic. Correctly extracted return policy from a short support text but needed help interpreting the English question. Wrote understandable help request with incorrect 'isn't power on' verb use. Chose 'study' for 'I ... English every day'. Expressed weekend habits clearly with countable-noun error 'read book'. Listening and pronunciation not tested."
+    }
+  ],
   "checkpoint": {
-    "id": null,
-    "last_saved_on": null,
-    "last_session_id": null
+    "id": "baseline-complete-2026-11-01-fresh-01",
+    "last_saved_on": "2026-11-01",
+    "last_session_id": "2026-11-01-fresh-diagnostic-01"
+  },
+  "course_cursor": {
+    "main_goal": "read_documents_and_communicate_online",
+    "phase": "lesson",
+    "step_id": "lesson-1-reading",
+    "pending_task_status": "unanswered",
+    "next_task_kind": "short_reading_comprehension",
+    "updated_on": "2026-11-01"
   }
 }
