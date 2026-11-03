@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 3,
+  "revision": 4,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,21 +41,21 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 2,
-      "correct_attempts": 1,
+      "evaluated_attempts": 3,
+      "correct_attempts": 2,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
-      "next_task": "vocabulary_supported_short_everyday_reading"
+      "next_task": "short_reading_with_conditions"
     },
     "communication": {
-      "evaluated_attempts": 4,
-      "correct_attempts": 2,
+      "evaluated_attempts": 9,
+      "correct_attempts": 5,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
         "singular_count_nouns_article_or_plural"
       ],
-      "next_task": "write_short_clear_help_request"
+      "next_task": "short_requests_and_problem_description"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -97,6 +97,24 @@
       "last_rating": "good",
       "evidence_count": 2,
       "example_redacted": "I usually read books on weekends."
+    },
+    {
+      "concept_id": "reply_to_message",
+      "track": "communication",
+      "next_due_on": "2026-11-05",
+      "last_checked_on": "2026-11-03",
+      "last_rating": "hard",
+      "evidence_count": 1,
+      "example_redacted": "reply to a message"
+    },
+    {
+      "concept_id": "singular_day_after_one",
+      "track": "communication",
+      "next_due_on": "2026-11-04",
+      "last_checked_on": "2026-11-03",
+      "last_rating": "again",
+      "evidence_count": 1,
+      "example_redacted": "one more day"
     }
   ],
   "recent_sessions": [
@@ -119,20 +137,30 @@
       "evaluated_attempts": 3,
       "correct_attempts": 1,
       "summary": "Reviewed won't turn on (incorrect), countable books (correct), and contact customer support (partial: omitted support). Continue vocabulary-first short reading and short communication."
+    },
+    {
+      "session_id": "2026-11-03-reading-and-communication",
+      "date": "2026-11-03",
+      "status": "completed",
+      "type": "reading_communication",
+      "checkpoint_id": "2026-11-03-lesson-checkpoint-01",
+      "evaluated_attempts": 6,
+      "correct_attempts": 4,
+      "summary": "Completed short reading and written communication exercises. Continue practice of reply to and singular nouns. Spoken and listening skills not tested."
     }
   ],
   "checkpoint": {
-    "id": "review-complete-2026-11-03-01",
+    "id": "2026-11-03-lesson-checkpoint-01",
     "last_saved_on": "2026-11-03",
-    "last_session_id": "2026-11-03-review-01"
+    "last_session_id": "2026-11-03-reading-and-communication"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "lesson-1-vocabulary",
-    "pending_task_status": "unanswered",
-    "next_task_kind": "vocabulary_supported_short_reading",
+    "step_id": "next-lesson",
+    "pending_task_status": "completed",
+    "next_task_kind": "new_short_reading",
     "updated_on": "2026-11-03",
-    "paused": false
+    "paused": true
   }
 }
