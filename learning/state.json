@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 2,
+  "revision": 3,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,21 +41,21 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 1,
+      "evaluated_attempts": 2,
       "correct_attempts": 1,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
-      "next_task": "short_everyday_instructions_identify_request_and_condition"
+      "next_task": "vocabulary_supported_short_everyday_reading"
     },
     "communication": {
-      "evaluated_attempts": 2,
-      "correct_attempts": 1,
+      "evaluated_attempts": 4,
+      "correct_attempts": 2,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
         "singular_count_nouns_article_or_plural"
       ],
-      "next_task": "describe_problem_and_ask_for_help_in_short_sentences"
+      "next_task": "write_short_clear_help_request"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -74,28 +74,28 @@
     {
       "concept_id": "english_what_should_x_do_question",
       "track": "reading",
-      "next_due_on": "2026-11-02",
-      "last_checked_on": "2026-11-01",
+      "next_due_on": "2026-11-05",
+      "last_checked_on": "2026-11-03",
       "last_rating": "hard",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "example_redacted": "What should a customer do if the problem continues?"
     },
     {
       "concept_id": "wont_turn_on_verb_phrase",
       "track": "communication",
-      "next_due_on": "2026-11-02",
-      "last_checked_on": "2026-11-01",
+      "next_due_on": "2026-11-04",
+      "last_checked_on": "2026-11-03",
       "last_rating": "again",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "example_redacted": "My computer won't turn on."
     },
     {
       "concept_id": "countable_book_article_or_plural",
       "track": "communication",
-      "next_due_on": "2026-11-02",
-      "last_checked_on": "2026-11-01",
-      "last_rating": "hard",
-      "evidence_count": 1,
+      "next_due_on": "2026-11-08",
+      "last_checked_on": "2026-11-03",
+      "last_rating": "good",
+      "evidence_count": 2,
       "example_redacted": "I usually read books on weekends."
     }
   ],
@@ -109,20 +109,30 @@
       "evaluated_attempts": 4,
       "correct_attempts": 3,
       "summary": "Text-only four-task diagnostic. Correctly extracted return policy from a short support text but needed help interpreting the English question. Wrote understandable help request with incorrect 'isn't power on' verb use. Chose 'study' for 'I ... English every day'. Expressed weekend habits clearly with countable-noun error 'read book'. Listening and pronunciation not tested."
+    },
+    {
+      "session_id": "2026-11-03-review-01",
+      "date": "2026-11-03",
+      "status": "completed",
+      "type": "review",
+      "checkpoint_id": "review-complete-2026-11-03-01",
+      "evaluated_attempts": 3,
+      "correct_attempts": 1,
+      "summary": "Reviewed won't turn on (incorrect), countable books (correct), and contact customer support (partial: omitted support). Continue vocabulary-first short reading and short communication."
     }
   ],
   "checkpoint": {
-    "id": "vocabulary-first-plan-pause-2026-11-01",
-    "last_saved_on": "2026-11-01",
-    "last_session_id": "2026-11-01-fresh-diagnostic-01"
+    "id": "review-complete-2026-11-03-01",
+    "last_saved_on": "2026-11-03",
+    "last_session_id": "2026-11-03-review-01"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "lesson-1-reading",
+    "step_id": "lesson-1-vocabulary",
     "pending_task_status": "unanswered",
-    "next_task_kind": "resume_short_reading_with_vocabulary_support",
-    "updated_on": "2026-11-01",
-    "paused": true
+    "next_task_kind": "vocabulary_supported_short_reading",
+    "updated_on": "2026-11-03",
+    "paused": false
   }
 }
