@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 4,
+  "revision": 5,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,21 +41,21 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 3,
-      "correct_attempts": 2,
+      "evaluated_attempts": 5,
+      "correct_attempts": 3,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
-      "next_task": "short_reading_with_conditions"
+      "next_task": "identify_all_steps_in_short_instructions"
     },
     "communication": {
-      "evaluated_attempts": 9,
-      "correct_attempts": 5,
+      "evaluated_attempts": 13,
+      "correct_attempts": 7,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
         "singular_count_nouns_article_or_plural"
       ],
-      "next_task": "short_requests_and_problem_description"
+      "next_task": "articles_possessives_and_past_event_sequence"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -83,10 +83,10 @@
     {
       "concept_id": "wont_turn_on_verb_phrase",
       "track": "communication",
-      "next_due_on": "2026-11-04",
-      "last_checked_on": "2026-11-03",
-      "last_rating": "again",
-      "evidence_count": 2,
+      "next_due_on": "2026-11-08",
+      "last_checked_on": "2026-11-04",
+      "last_rating": "good",
+      "evidence_count": 3,
       "example_redacted": "My computer won't turn on."
     },
     {
@@ -110,11 +110,29 @@
     {
       "concept_id": "singular_day_after_one",
       "track": "communication",
-      "next_due_on": "2026-11-04",
-      "last_checked_on": "2026-11-03",
-      "last_rating": "again",
-      "evidence_count": 1,
+      "next_due_on": "2026-11-08",
+      "last_checked_on": "2026-11-04",
+      "last_rating": "good",
+      "evidence_count": 2,
       "example_redacted": "one more day"
+    },
+    {
+      "concept_id": "singular_noun_requires_determiner",
+      "track": "communication",
+      "next_due_on": "2026-11-06",
+      "last_checked_on": "2026-11-04",
+      "last_rating": "hard",
+      "evidence_count": 2,
+      "example_redacted": "the app; my phone"
+    },
+    {
+      "concept_id": "simple_past_for_sequence",
+      "track": "communication",
+      "next_due_on": "2026-11-06",
+      "last_checked_on": "2026-11-04",
+      "last_rating": "hard",
+      "evidence_count": 1,
+      "example_redacted": "I updated the app first, then restarted my phone."
     }
   ],
   "recent_sessions": [
@@ -147,20 +165,30 @@
       "evaluated_attempts": 6,
       "correct_attempts": 4,
       "summary": "Completed short reading and written communication exercises. Continue practice of reply to and singular nouns. Spoken and listening skills not tested."
+    },
+    {
+      "session_id": "2026-11-04-lesson-01",
+      "date": "2026-11-04",
+      "status": "completed",
+      "type": "review_reading_communication",
+      "checkpoint_id": "2026-11-04-lesson-complete",
+      "evaluated_attempts": 6,
+      "correct_attempts": 3,
+      "summary": "Two review prompts correct. Reading response included both actions after one retry. Two written problem descriptions conveyed requested information with grammar improvements needed for determiners and past sequence. Audio not tested."
     }
   ],
   "checkpoint": {
-    "id": "2026-11-03-lesson-checkpoint-01",
-    "last_saved_on": "2026-11-03",
-    "last_session_id": "2026-11-03-reading-and-communication"
+    "id": "2026-11-04-lesson-complete",
+    "last_saved_on": "2026-11-04",
+    "last_session_id": "2026-11-04-lesson-01"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
     "step_id": "next-lesson",
     "pending_task_status": "completed",
-    "next_task_kind": "new_short_reading",
-    "updated_on": "2026-11-03",
+    "next_task_kind": "review_determiners_and_short_reading",
+    "updated_on": "2026-11-04",
     "paused": true
   }
 }
