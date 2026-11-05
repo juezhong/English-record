@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 5,
+  "revision": 6,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,21 +41,21 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 5,
-      "correct_attempts": 3,
+      "evaluated_attempts": 6,
+      "correct_attempts": 4,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
-      "next_task": "identify_all_steps_in_short_instructions"
+      "next_task": "short_everyday_instructions_conditions"
     },
     "communication": {
-      "evaluated_attempts": 13,
+      "evaluated_attempts": 14,
       "correct_attempts": 7,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
         "singular_count_nouns_article_or_plural"
       ],
-      "next_task": "articles_possessives_and_past_event_sequence"
+      "next_task": "reply_to_messages_and_polite_online_requests"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -74,10 +74,10 @@
     {
       "concept_id": "english_what_should_x_do_question",
       "track": "reading",
-      "next_due_on": "2026-11-05",
-      "last_checked_on": "2026-11-03",
-      "last_rating": "hard",
-      "evidence_count": 2,
+      "next_due_on": "2026-11-09",
+      "last_checked_on": "2026-11-05",
+      "last_rating": "good",
+      "evidence_count": 3,
       "example_redacted": "What should a customer do if the problem continues?"
     },
     {
@@ -101,11 +101,11 @@
     {
       "concept_id": "reply_to_message",
       "track": "communication",
-      "next_due_on": "2026-11-05",
-      "last_checked_on": "2026-11-03",
-      "last_rating": "hard",
-      "evidence_count": 1,
-      "example_redacted": "reply to a message"
+      "next_due_on": "2026-11-06",
+      "last_checked_on": "2026-11-05",
+      "last_rating": "again",
+      "evidence_count": 2,
+      "example_redacted": "reply to your email"
     },
     {
       "concept_id": "singular_day_after_one",
@@ -175,20 +175,30 @@
       "evaluated_attempts": 6,
       "correct_attempts": 3,
       "summary": "Two review prompts correct. Reading response included both actions after one retry. Two written problem descriptions conveyed requested information with grammar improvements needed for determiners and past sequence. Audio not tested."
+    },
+    {
+      "session_id": "2026-11-05-review-01",
+      "date": "2026-11-05",
+      "status": "completed",
+      "type": "review",
+      "checkpoint_id": "2026-11-05-review-complete-01",
+      "evaluated_attempts": 2,
+      "correct_attempts": 1,
+      "summary": "Reading comprehension action answered correctly. Future email reply used replay instead of reply to; review this collocation again. No audio assessment."
     }
   ],
   "checkpoint": {
-    "id": "2026-11-04-lesson-complete",
-    "last_saved_on": "2026-11-04",
-    "last_session_id": "2026-11-04-lesson-01"
+    "id": "2026-11-05-review-complete-01",
+    "last_saved_on": "2026-11-05",
+    "last_session_id": "2026-11-05-review-01"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "next-lesson",
-    "pending_task_status": "completed",
-    "next_task_kind": "review_determiners_and_short_reading",
-    "updated_on": "2026-11-04",
-    "paused": true
+    "step_id": "2026-11-05-vocabulary-reading",
+    "pending_task_status": "unanswered",
+    "next_task_kind": "vocabulary_supported_short_reading",
+    "updated_on": "2026-11-05",
+    "paused": false
   }
 }
