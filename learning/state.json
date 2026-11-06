@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 7,
+  "revision": 8,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,16 +41,16 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 8,
-      "correct_attempts": 5,
+      "evaluated_attempts": 9,
+      "correct_attempts": 6,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
       "next_task": "understand_after_clauses_in_short_messages"
     },
     "communication": {
-      "evaluated_attempts": 16,
-      "correct_attempts": 8,
+      "evaluated_attempts": 18,
+      "correct_attempts": 9,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
         "singular_count_nouns_article_or_plural"
@@ -101,10 +101,10 @@
     {
       "concept_id": "reply_to_message",
       "track": "communication",
-      "next_due_on": "2026-11-06",
-      "last_checked_on": "2026-11-05",
-      "last_rating": "again",
-      "evidence_count": 2,
+      "next_due_on": "2026-11-10",
+      "last_checked_on": "2026-11-06",
+      "last_rating": "good",
+      "evidence_count": 3,
       "example_redacted": "reply to your email"
     },
     {
@@ -137,10 +137,10 @@
     {
       "concept_id": "after_time_clause_word_order",
       "track": "reading",
-      "next_due_on": "2026-11-06",
-      "last_checked_on": "2026-11-05",
+      "next_due_on": "2026-11-07",
+      "last_checked_on": "2026-11-06",
       "last_rating": "again",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "example_redacted": "after they receive the request"
     },
     {
@@ -155,10 +155,10 @@
     {
       "concept_id": "thanks_for_vs_thanks_to",
       "track": "communication",
-      "next_due_on": "2026-11-06",
-      "last_checked_on": "2026-11-05",
+      "next_due_on": "2026-11-07",
+      "last_checked_on": "2026-11-06",
       "last_rating": "again",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "example_redacted": "Thanks for your help."
     },
     {
@@ -231,20 +231,30 @@
       "evaluated_attempts": 4,
       "correct_attempts": 2,
       "summary": "Short instruction reading: identified the Friday deadline; struggled with after-clause word order even after one retry. Written support inquiry: correctly revised past-tense submission and present-perfect non-receipt; final reply conveyed next-step request but mixed thanks for/to and after/ago. Text-only; no audio evaluation."
+    },
+    {
+      "session_id": "2026-11-06-review-01",
+      "date": "2026-11-06",
+      "status": "completed",
+      "type": "review",
+      "checkpoint_id": "2026-11-06-review-complete-01",
+      "evaluated_attempts": 3,
+      "correct_attempts": 2,
+      "summary": "Reviewed after-clause timing, reply to your email, and thanks for your help. Understood the email timing but omitted subject after after; correctly used reply to with email spelling slip; confused thanks to with thanks for. Text-only."
     }
   ],
   "checkpoint": {
-    "id": "2026-11-05-reading-communication-complete-01",
-    "last_saved_on": "2026-11-05",
-    "last_session_id": "2026-11-05-reading-communication"
+    "id": "2026-11-06-review-complete-01",
+    "last_saved_on": "2026-11-06",
+    "last_session_id": "2026-11-06-review-01"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "next-lesson",
-    "pending_task_status": "completed",
-    "next_task_kind": "review_time_clauses_and_short_messages",
-    "updated_on": "2026-11-05",
-    "paused": true
+    "step_id": "reading-1",
+    "pending_task_status": "unanswered",
+    "next_task_kind": "vocabulary_first_short_notice_reading",
+    "updated_on": "2026-11-06",
+    "paused": false
   }
 }
