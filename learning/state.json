@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 8,
+  "revision": 9,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -41,21 +41,22 @@
   },
   "tracks": {
     "reading": {
-      "evaluated_attempts": 9,
-      "correct_attempts": 6,
+      "evaluated_attempts": 10,
+      "correct_attempts": 7,
       "weak_concepts": [
         "understanding_what_should_someone_do_question"
       ],
-      "next_task": "understand_after_clauses_in_short_messages"
+      "next_task": "short_instructions_and_conditionals"
     },
     "communication": {
-      "evaluated_attempts": 18,
-      "correct_attempts": 9,
+      "evaluated_attempts": 20,
+      "correct_attempts": 10,
       "weak_concepts": [
         "wont_turn_on_verb_phrase",
-        "singular_count_nouns_article_or_plural"
+        "singular_count_nouns_article_or_plural",
+        "pick_up_verb_vs_pickup_noun"
       ],
-      "next_task": "natural_requests_time_phrases_and_collocations"
+      "next_task": "polite_requests_using_could_you_please_and_pick_up"
     },
     "listening_speaking": {
       "evaluated_attempts": 0,
@@ -169,6 +170,15 @@
       "last_rating": "again",
       "evidence_count": 1,
       "example_redacted": "after two business days"
+    },
+    {
+      "concept_id": "pick_up_verb_vs_pickup_noun",
+      "track": "communication",
+      "next_due_on": "2026-11-07",
+      "last_checked_on": "2026-11-06",
+      "last_rating": "hard",
+      "evidence_count": 2,
+      "example_redacted": "pick up an order; cancel the pickup"
     }
   ],
   "recent_sessions": [
@@ -241,19 +251,29 @@
       "evaluated_attempts": 3,
       "correct_attempts": 2,
       "summary": "Reviewed after-clause timing, reply to your email, and thanks for your help. Understood the email timing but omitted subject after after; correctly used reply to with email spelling slip; confused thanks to with thanks for. Text-only."
+    },
+    {
+      "session_id": "2026-11-06-reading-communication",
+      "date": "2026-11-06",
+      "status": "completed",
+      "type": "reading_communication",
+      "checkpoint_id": "2026-11-06-reading-communication-complete-01",
+      "evaluated_attempts": 3,
+      "correct_attempts": 2,
+      "summary": "Read a short pickup notice and correctly extracted the contact/cancellation action (with omitted object us). Wrote a polite pickup cancellation request, corrected the missing infinitive and used Could you please; verb pick up was still written as noun pickup on retry. Speaking/listening not tested."
     }
   ],
   "checkpoint": {
-    "id": "2026-11-06-review-complete-01",
+    "id": "2026-11-06-reading-communication-complete-01",
     "last_saved_on": "2026-11-06",
-    "last_session_id": "2026-11-06-review-01"
+    "last_session_id": "2026-11-06-reading-communication"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "reading-1",
+    "step_id": "speaking-1",
     "pending_task_status": "unanswered",
-    "next_task_kind": "vocabulary_first_short_notice_reading",
+    "next_task_kind": "voice_or_text_short_roleplay",
     "updated_on": "2026-11-06",
     "paused": false
   }
