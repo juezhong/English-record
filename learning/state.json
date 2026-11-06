@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 10,
+  "revision": 11,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -18,21 +18,26 @@
     "practice_language": "en",
     "learning_mode": "text_voice_mixed",
     "voice_mode": "announce_before_voice_switch; start_with_text",
-    "teaching_level": "vocabulary_first_beginner_friendly",
+    "teaching_level": "beginner_weak_foundations_do_not_assume_independent_sentence_construction",
     "teaching_method": {
       "vocabulary_minutes": 8,
       "reading_minutes": 10,
       "communication_minutes": 6,
       "listening_speaking_minutes": 4,
       "foundation_exam_minutes": 2,
-      "new_words_per_day": "3-5",
-      "max_new_words_per_passage": "2-3",
+      "new_words_per_day": "2-3",
+      "max_new_words_per_passage": "1-2",
       "reading_sentences": "1-2",
-      "method": "Teach essential vocabulary before a short passage, then ask one comprehension question; reduce Chinese support gradually as demonstrated comprehension improves.",
+      "method": "Begin from beginner foundations. Teach the meaning of basic vocabulary first; teach one high-frequency phrase pattern at a time using very simple sentences; start with recognition and substitution before asking for independent sentence construction. Explain everyday meaning before introducing any technical grammar term and never assume a taught word is already mastered.",
       "explanation_language": "zh-CN",
-      "exercise_language": "en"
+      "exercise_language": "en",
+      "grammar_terms": "Avoid unexplained technical grammar terms; when necessary give plain Chinese explanation with concrete examples before labels.",
+      "sentence_production": "Start with one-word responses, recognition or one-word replacement; build to short sentences only when learner demonstrates readiness.",
+      "reassessment": "Do not infer strong foundations from an isolated correct sentence; check understanding and retention over time."
     },
-    "voice_turn_taking": "Allow the learner to pause and think; do not interrupt or treat a brief gap as the end of their answer."
+    "voice_turn_taking": "Allow the learner to pause and think; do not interrupt or treat a brief gap as the end of their answer.",
+    "learner_self_report": "Foundational English vocabulary and grammar are weak; needs beginner-paced, vocabulary-first teaching, no assumed sentence-building ability.",
+    "updated_on": "2026-11-06"
   },
   "assessment": {
     "estimated_cefr": "A1-A2_provisional_text_only",
