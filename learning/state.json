@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository": "juezhong/English-record",
-  "revision": 9,
+  "revision": 10,
   "preferences": {
     "locale": "zh-CN",
     "daily_minutes": 30,
@@ -31,7 +31,8 @@
       "method": "Teach essential vocabulary before a short passage, then ask one comprehension question; reduce Chinese support gradually as demonstrated comprehension improves.",
       "explanation_language": "zh-CN",
       "exercise_language": "en"
-    }
+    },
+    "voice_turn_taking": "Allow the learner to pause and think; do not interrupt or treat a brief gap as the end of their answer."
   },
   "assessment": {
     "estimated_cefr": "A1-A2_provisional_text_only",
@@ -59,10 +60,10 @@
       "next_task": "polite_requests_using_could_you_please_and_pick_up"
     },
     "listening_speaking": {
-      "evaluated_attempts": 0,
-      "correct_attempts": 0,
+      "evaluated_attempts": 1,
+      "correct_attempts": 1,
       "weak_concepts": [],
-      "next_task": "voice_baseline_when_voice_mode_active"
+      "next_task": "patient_turn_taking_and_short_personal_reflections"
     },
     "foundation_exam": {
       "evaluated_attempts": 1,
@@ -261,20 +262,30 @@
       "evaluated_attempts": 3,
       "correct_attempts": 2,
       "summary": "Read a short pickup notice and correctly extracted the contact/cancellation action (with omitted object us). Wrote a polite pickup cancellation request, corrected the missing infinitive and used Could you please; verb pick up was still written as noun pickup on retry. Speaking/listening not tested."
+    },
+    {
+      "session_id": "2026-11-06-speaking-01",
+      "date": "2026-11-06",
+      "status": "completed",
+      "type": "spoken_practice_transcript_only",
+      "checkpoint_id": "2026-11-06-speaking-complete-01",
+      "evaluated_attempts": 1,
+      "correct_attempts": 1,
+      "summary": "Completed short self-reflection speaking task. After guidance, produced a complete, grammatically appropriate sentence about studying English and needing to improve. Only speech transcription available for assessment; pronunciation, listening comprehension and acoustic fluency were not rated. Learner requested longer thinking pauses without premature interruption."
     }
   ],
   "checkpoint": {
-    "id": "2026-11-06-reading-communication-complete-01",
+    "id": "2026-11-06-speaking-complete-01",
     "last_saved_on": "2026-11-06",
-    "last_session_id": "2026-11-06-reading-communication"
+    "last_session_id": "2026-11-06-speaking-01"
   },
   "course_cursor": {
     "main_goal": "read_documents_and_communicate_online",
     "phase": "lesson",
-    "step_id": "speaking-1",
-    "pending_task_status": "unanswered",
-    "next_task_kind": "voice_or_text_short_roleplay",
+    "step_id": "next-lesson",
+    "pending_task_status": "completed",
+    "next_task_kind": "review_due_concepts_and_new_short_reading",
     "updated_on": "2026-11-06",
-    "paused": false
+    "paused": true
   }
 }
